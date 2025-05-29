@@ -1,37 +1,26 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif; background: linear-gradient(135deg, #74ebd5, #9face6); height:100vh; display:flex; justify-content:center; align-items:center;">
+
+  <div style="background:white; padding:40px 30px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.1); width:300px; text-align:center;">
+    <h2 style="margin-bottom:24px; color:#333;">Login</h2>
     
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
-
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
+    <form>
+      <input type="text" placeholder="Username" style="width:100%; padding:12px; margin-bottom:16px; border:1px solid #ccc; border-radius:8px; font-size:14px;">
+      
+      <input type="password" placeholder="Password" style="width:100%; padding:12px; margin-bottom:24px; border:1px solid #ccc; border-radius:8px; font-size:14px;">
+      
+      <button type="submit" style="width:100%; padding:12px; background:#6a11cb; background:linear-gradient(90deg, #2575fc, #6a11cb); border:none; color:white; font-weight:bold; border-radius:8px; font-size:16px; cursor:pointer;">
+        Log In
+      </button>
+    </form>
+    
+    <p style="margin-top:20px; font-size:14px; color:#666;">Don't have an account? <a href="#" style="color:#6a11cb; text-decoration:none;">Sign Up</a></p>
   </div>
 
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+</body>
+</html>
