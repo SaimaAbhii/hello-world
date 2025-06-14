@@ -209,13 +209,13 @@
       <form onsubmit="return handleLogin(event)">
         <div class="form-group">
           <input type="text" id="username" placeholder=" " required />
-          <label for="username">Happy-Name</label>
+          <label for="username">Mystic-Name!</label>
           <i class="fa fa-user"></i>
         </div>
 
         <div class="form-group">
           <input type="password" id="password" placeholder=" " required />
-          <label for="password">Secret-Code</label>
+          <label for="password">Magic-Code!</label>
           <i class="fa fa-lock"></i>
         </div>
 
