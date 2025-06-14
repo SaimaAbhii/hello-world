@@ -209,7 +209,7 @@
       <form onsubmit="return handleLogin(event)">
         <div class="form-group">
           <input type="text" id="username" placeholder=" " required />
-          <label for="username">Nick-Name</label>
+          <label for="username">Happy-Name</label>
           <i class="fa fa-user"></i>
         </div>
 
