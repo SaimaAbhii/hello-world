@@ -222,7 +222,7 @@
         <button type="submit">Explore the Valley!</button>
       </form>
 
-      <div class="link-text">New here? <a href="#">Begin Your Journey</a></div>
+      <div class="link-text">New here? <a href="#">Begin Your Journey!</a></div>
 
       <div class="footer">© 2025 Lavender Valley Studios</div>
     </div>
