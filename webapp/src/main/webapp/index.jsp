@@ -204,7 +204,7 @@
 
     <div class="login-container">
       <h1>🌌 Lavender Valley</h1>
-      <p class="subtitle">Enter the world of magic, mystery, adventure.</p>
+      <p class="subtitle">Enter the world of magic, mystery and adventure.</p>
 
       <form onsubmit="return handleLogin(event)">
         <div class="form-group">
