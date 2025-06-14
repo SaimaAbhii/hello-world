@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lavender Valley - Login</title>
 
-    <!-- 🌟 Favicon -->
+    <!-- Favicon using external URL -->
     <link
       rel="icon"
       type="image/png"
-      href="https://cdn-icons-png.flaticon.com/512/3209/3209265.png"
+      href="https://cdn-icons-png.flaticon.com/32/3209/3209265.png"
     />
 
     <!-- Font Awesome -->
@@ -204,9 +204,7 @@
 
     <div class="login-container">
       <h1>🌌 Lavender Valley</h1>
-      <p class="subtitle">
-        Enter the world of magic, mystery, and endless adventure.
-      </p>
+      <p class="subtitle">Enter the world of magic, mystery, adventure.</p>
 
       <form onsubmit="return handleLogin(event)">
         <div class="form-group">
