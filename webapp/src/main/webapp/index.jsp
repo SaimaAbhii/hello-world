@@ -9,7 +9,6 @@
       rel="stylesheet"
     />
     <style>
-      /* Reset and Global Styles */
       * {
         box-sizing: border-box;
         margin: 0;
@@ -178,46 +177,6 @@
         color: #999;
       }
 
-      /* Light Mode */
-      body.light-mode {
-        background: linear-gradient(135deg, #ffffff, #e6dbf7);
-        color: #222;
-      }
-
-      body.light-mode .login-container {
-        background: rgba(255, 255, 255, 0.5);
-        color: #222;
-        box-shadow: 0 0 30px rgba(100, 100, 255, 0.2);
-      }
-
-      body.light-mode .form-group input {
-        background: rgba(255, 255, 255, 0.7);
-        color: #000;
-        border: 1px solid #ccc;
-      }
-
-      body.light-mode .form-group input:focus {
-        box-shadow: 0 0 10px #c59cff;
-      }
-
-      body.light-mode .form-group label {
-        background-color: #f0f0ff;
-        color: #5c33a3;
-      }
-
-      .theme-toggle {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
-        font-size: 18px;
-        color: #fff;
-      }
-
-      body.light-mode .theme-toggle {
-        color: #222;
-      }
-
       @media (max-width: 500px) {
         .login-container {
           padding: 35px 25px;
@@ -232,10 +191,6 @@
 
   <body>
     <div class="background"></div>
-
-    <div class="theme-toggle" onclick="toggleTheme()">
-      <i class="fas fa-moon" id="theme-icon"></i>
-    </div>
 
     <div class="login-container">
       <h1>🌌 Lavender Valley</h1>
@@ -265,13 +220,6 @@
     </div>
 
     <script>
-      function toggleTheme() {
-        document.body.classList.toggle("light-mode");
-        const icon = document.getElementById("theme-icon");
-        icon.classList.toggle("fa-moon");
-        icon.classList.toggle("fa-sun");
-      }
-
       function handleLogin(e) {
         e.preventDefault();
         const button = e.target.querySelector("button");
