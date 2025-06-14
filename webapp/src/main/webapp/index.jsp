@@ -203,7 +203,7 @@
     <div class="background"></div>
 
     <div class="login-container">
-      <h1>🌌 Lavender Valley</h1>
+      <h1>- Lavender Valley -</h1>
       <p class="subtitle">Enter the world of magic, mystery and adventure.</p>
 
       <form onsubmit="return handleLogin(event)">
@@ -219,7 +219,7 @@
           <i class="fa fa-lock"></i>
         </div>
 
-        <button type="submit">Enter the Valley</button>
+        <button type="submit">Explore the Valley</button>
       </form>
 
       <div class="link-text">New here? <a href="#">Create your account</a></div>
